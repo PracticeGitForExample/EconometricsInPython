@@ -8,7 +8,7 @@
 
 //} );
 
-const URL = 'https://practicegitforexample.github.io/EconometricsInPython/blogpostex.html';
+const URL = 'https://github.com/PracticeGitForExample/EconometricsInPython/blob/main/blogpostex.html';
 function getData(pageId) {
   console.log(pageId);
   var myRequest = new Request(pageId + '.txt');
