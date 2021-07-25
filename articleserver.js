@@ -8,7 +8,7 @@
 
 //} );
 
-const URL = ''https://www.sap.com/belgique/index.html'';
+const URL = 'https://www.sap.com/belgique/index.html';
 function getData(pageId) {
   console.log(pageId);
   var myRequest = new Request(pageId + '.txt');
