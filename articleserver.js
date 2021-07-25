@@ -2,8 +2,6 @@
 ///content.fetch("js\ClassLibraries.html")).text();
 
 document.querySelector("iframe").addEventListener( "load", function(e) {
-
-    this.style.backgroundColor = "red";
     alert(this.nodeName);
 
     console.log(e.target);
